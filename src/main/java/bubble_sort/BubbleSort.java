@@ -1,7 +1,6 @@
 package bubble_sort;
 
 public class BubbleSort {
-
     public static void sort (int[] A){
         for (int i = 0; i < A.length; i++) {
             for (int j = 1; j <  A.length - i; j++) {
@@ -11,14 +10,6 @@ public class BubbleSort {
                     A[j-1] = tmp;
                 }
             }
-        }
-    }
-
-    public static void main(String[] args) {
-        int[] A = {7,4,1,5,2,4,6,3};
-        sort(A);
-        for (int i = 0; i < A.length; i++) {
-            System.out.println(A[i]);
         }
     }
 
